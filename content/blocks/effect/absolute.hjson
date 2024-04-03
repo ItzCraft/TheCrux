@@ -1,1 +1,45 @@
+type: CoreBlock
 
+category: effect
+
+health: 4500
+
+size: 4
+
+
+
+itemCapacity: 30000
+
+unitCapModifier: 15
+
+unitType: "tr"
+
+incinerateNonBuildable: true
+
+isFirstTier: true
+
+
+
+requirements: [
+
+    "lead/5000"
+    "surge-alloy/3500"
+    "plastanium/2000"
+
+]
+
+
+
+research: {
+
+    root: true
+
+    name: @k-techtree
+
+	planet: kerver
+
+}
+
+
+
+alwaysUnlocked: true
