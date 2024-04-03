@@ -1,0 +1,63 @@
+generator: SerpuloPlanetGenerator
+parent: sun
+iconColor: b5cef7
+orbitRadius: 145
+hasAtmosphere: true
+updateLighting: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.45
+atmosphereColor: 8de3d6
+drawOrbit: true
+
+accessible: true
+alwaysUnlocked: true
+defaultCore: "core-absolute"
+sectorSeed: 32
+startSector: 26
+sectorSize: 3
+
+clearSectorOnLose: true
+allowSectorInvasion: true
+allowLaunchToNumbered: false
+cloudMesh: {
+    type: HexSkyMesh
+    planet: kerver
+    seed: 1348
+    speed: 6.71
+    radius: 0.6
+    divisions: 6
+    color: ffffff
+    octaves: 5
+    persistence: 6
+    scl: 5
+    thresh: 0.4
+}
+mesh: {
+    type: NoiseMesh
+    planet: kerver
+    seed: 5000
+    color1: 5a8e9c
+    color2: a6acbf
+    color3: f0ffff
+    color4: 6a61b0
+    divisions: 4
+    radius: 2
+    octaves: 4
+    persistence: 1
+    scl: 1.4
+    mag: 1.7
+}	
+
+hiddenItems: [
+    "copper"
+    "scrap"
+    "graphite"
+    "spore-pod"
+    "sand"
+    "blast-compound"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "fissile-matter"
+    "dormant-cyst"
+]
