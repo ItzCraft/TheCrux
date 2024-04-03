@@ -1,0 +1,12 @@
+name: "Crux Extension"
+repo: "itzcraft/TheCrux"
+minGameVersion: 136
+version: "v0.1"
+displayName: "The Crux Extension"
+author: "[blue[]]ItzCraft/[red[]]DarkSniper" 
+subtitle: "Yo hi!"
+
+description: "The Crux is going to destroy you..."
+
+dependencies: []
+hideBrowser: true
