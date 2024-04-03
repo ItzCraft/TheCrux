@@ -12,7 +12,7 @@ itemCapacity: 30000
 
 unitCapModifier: 15
 
-unitType: "tr"
+unitType: "truitel"
 
 incinerateNonBuildable: true
 
