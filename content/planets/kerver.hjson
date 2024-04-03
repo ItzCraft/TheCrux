@@ -1,11 +1,11 @@
 generator: SerpuloPlanetGenerator
 parent: sun
 iconColor: 523b3b
-orbitRadius: 145
+orbitRadius: 215
 hasAtmosphere: true
 updateLighting: true
-atmosphereRadIn: 0.1
-atmosphereRadOut: 1.3
+atmosphereRadIn: 0
+atmosphereRadOut: 2
 atmosphereColor: 797a7a
 drawOrbit: true
 
@@ -14,7 +14,7 @@ alwaysUnlocked: true
 defaultCore: "core-absolute"
 sectorSeed: 32
 startSector: 26
-sectorSize: 3
+sectorSize: 1
 
 clearSectorOnLose: true
 allowSectorInvasion: true
@@ -22,15 +22,15 @@ allowLaunchToNumbered: false
 cloudMesh: {
     type: HexSkyMesh
     planet: kerver
-    seed: 1348
+    seed: 1
     speed: 6.71
     radius: 0.6
-    divisions: 6
+    divisions: 8
     color: ffffff
-    octaves: 5
-    persistence: 6
-    scl: 5
-    thresh: 0.4
+    octaves: 4
+    persistence: 18
+    scl: 3
+    thresh: 0.3
 }
 mesh: {
     type: NoiseMesh
@@ -39,12 +39,12 @@ mesh: {
     color1: 7a4b4b
     color2: 696868
     color3: 9e7a7a
-    divisions: 4
-    radius: 2
+    divisions: 3
+    radius: 1
     octaves: 4
-    persistence: 1
-    scl: 1.4
-    mag: 1.7
+    persistence: 2
+    scl: 2.8
+    mag: 1.9
 }	
 
 hiddenItems: [
@@ -59,4 +59,4 @@ hiddenItems: [
     "tungsten"
     "fissile-matter"
     "dormant-cyst"
-]
+] 
