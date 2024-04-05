@@ -1,0 +1,20 @@
+type: Drill
+health: 300
+size: 2
+tier: 3
+buildCostMultiplier: 2.5
+drillTime: 375
+hasItems: true
+itemCapacity: 20
+requirements: [
+  lead/35,
+  plastanium/25
+]
+category: production
+research: {
+    parent: "core-absolute"
+    requirements: [
+        "lead/100",
+        "plastanium/65"
+    ]
+}
